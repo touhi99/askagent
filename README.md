@@ -58,3 +58,6 @@ python askit/askit.py "What is 2x+5 = -3x + 7? and why?"
 python askit/askit.py "what's the command to see free space on my mac?"
 ```
 
+## TODO:
+- Add Llama3 local (from Ollama)
+- Add more tools
