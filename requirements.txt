@@ -1,0 +1,12 @@
+wolframalpha
+langchain_experimental
+langchain-core
+langchain
+langchain_community
+google-search-results
+wikipedia
+numexpr
+arxiv
+tavily-python
+xmltodict
+python-dotenv

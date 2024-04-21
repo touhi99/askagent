@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "askit-terminal-agents"
+version = "0.1.0"
+description = "LLM-based agents to be run from terminal to perform differen tasks"
+authors = ["Touhidul Alam"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wolframalpha = "^5.0.0"
+langchain-experimental = "^0.0.57"
+langchain-core = "^0.1.45"
+langchain = "^0.1.16"
+langchain-community = "^0.0.34"
+google-search-results = "^2.4.2"
+wikipedia = "^1.4.0"
+numexpr = "^2.10.0"
+arxiv = "^2.1.0"
+tavily-python = "^0.3.3"
+xmltodict = "^0.13.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+askit = "askit.askit:main"
