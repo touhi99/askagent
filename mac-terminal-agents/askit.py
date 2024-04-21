@@ -9,7 +9,6 @@ from langchain_groq.chat_models import ChatGroq
 from langchain.agents import AgentExecutor, create_openai_tools_agent
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from llm_tools import load_conditional_tools
-
 import argparse
 
 def main():
@@ -59,4 +58,5 @@ def main():
         print("Error Agent call")
 
 if __name__ == "__main__":
+    print("Script is running directly")
     main()
