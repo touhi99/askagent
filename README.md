@@ -8,7 +8,11 @@ This project uses Poetry for package management. To install Poetry, follow the i
 
 Once you have Poetry installed, you can install the project dependencies with:
 
-```poetry install```
+```
+poetry install
+poetry shell
+askit
+```
 
 ## Configuration
 
@@ -48,14 +52,14 @@ For example:
 
 Some other further example:
 ```
-python askit/askit.py  "command to check mac cpu/gpu processing"
-python askit/askit.py --verbose=True  "Give me the command to find any pdf in my system"
-python askit/askit.py --verbose=True  "what does latest AI news say??"
-python askit/askit.py --verbose True  "what's the weather at Munich now?"
-python askit/askit.py --verbose=True  "what causes lung cancer? Get from medical expert"
-python askit/askit.py "give me top 5  Mrbeast channel video url"
-python askit/askit.py "What is 2x+5 = -3x + 7? and why?"
-python askit/askit.py "what's the command to see free space on my mac?"
+askit  "command to check mac cpu/gpu processing"
+askit --verbose=True  "Give me the command to find any pdf in my system"
+askit --verbose=True  "what does latest AI news say??"
+askit --verbose True  "what's the weather at Munich now?"
+askit --verbose=True  "what causes lung cancer? Get from medical expert"
+askit "give me top 5  Mrbeast channel video url"
+askit "What is 2x+5 = -3x + 7? and why?"
+askit "what's the command to see free space on my mac?"
 ```
 
 ## TODO:
