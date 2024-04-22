@@ -1,6 +1,6 @@
-### ASKit - Mac Terminal LLM Agents
+### AskAgent - Mac Terminal LLM Agents
 
-This is a simple Mac/Ubuntu terminal assistant with agents capable of various tasks. Purpose is to quickly with `askit` command able to get answer without looking through via ChatGPT interface or searching in Google. Ideally, it can also execute unix command if permissed but use at your own risk. But for simple command i.e., "Go to desktop and list all the pdf's there" it can execute `['cd ~/Desktop', 'ls *.pdf']` and show the results. 
+This is a simple Mac/Ubuntu terminal assistant with agents capable of various tasks. Purpose is to quickly with `askagent` command able to get answer without looking through via ChatGPT interface or searching in Google. Ideally, it can also execute unix command if permissed but use at your own risk. But for simple command i.e., "Go to desktop and list all the pdf's there" it can execute `['cd ~/Desktop', 'ls *.pdf']` and show the results. 
 
 ## Installation
 
@@ -11,7 +11,7 @@ Once you have Poetry installed, you can install the project dependencies with:
 ```
 poetry install
 poetry shell
-askit
+askagent
 ```
 
 ## Configuration
@@ -36,7 +36,7 @@ For development, rename the `.env.example` to `.env` and update the API KEYS
 
 To run the tool, execute the following from the command line:
 
-```poetry run python askit/askit.py "What is the capital of France?"```
+```askagent "What is the capital of France?"```
 
 ### **Argument Details**
 
@@ -48,18 +48,18 @@ The program takes the following arguments
 
 For example:
 
-``` poetry run python askit/askit.py --model groq --verbose True  "Find me any latest Diffusion video paper" ```
+``` askagent --model groq --verbose True  "Find me any latest Diffusion video paper" ```
 
 Some other further example:
 ```
-askit  "command to check mac cpu/gpu processing"
-askit --verbose=True  "Give me the command to find any pdf in my system"
-askit --verbose=True  "what does latest AI news say??"
-askit --verbose True  "what's the weather at Munich now?"
-askit --verbose=True  "what causes lung cancer? Get from medical expert"
-askit "give me top 5  Mrbeast channel video url"
-askit "What is 2x+5 = -3x + 7? and why?"
-askit "what's the command to see free space on my mac?"
+askagent  "command to check mac cpu/gpu processing"
+askagent --verbose=True  "Give me the command to find any pdf in my system"
+askagent --verbose=True  "what does latest AI news say??"
+askagent --verbose True  "what's the weather at Munich now?"
+askagent --verbose=True  "what causes lung cancer? Get from medical expert"
+askagent "give me top 5  Mrbeast channel video url"
+askagent "What is 2x+5 = -3x + 7? and why?"
+askagent "what's the command to see free space on my mac?"
 ```
 
 ## TODO:

@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "askit"
+name = "askagent"
 version = "0.1.0"
-description = "LLM-based agents to be run from terminal to perform differen tasks with the command askit"
+description = "LLM-based agents to be run from terminal to perform differen tasks with the command askagent"
 authors = ["Touhidul Alam"]
 license = "MIT"
 readme = "README.md"
@@ -28,4 +28,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-askit = "askit.askit:main"
+askagent = "askagent.askagent:main"

@@ -8,7 +8,7 @@ from langchain_experimental.llms.ollama_functions import OllamaFunctions
 from langchain_groq.chat_models import ChatGroq
 from langchain.agents import AgentExecutor, create_openai_tools_agent
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from askit.llm_tools import load_conditional_tools
+from askagent.llm_tools import load_conditional_tools
 import argparse
 
 def main():
