@@ -4,7 +4,9 @@ This is a simple Mac/Ubuntu terminal assistant with agents capable of various ta
 
 ## Installation
 
-This project uses Poetry for package management. To install Poetry, follow the instructions [here](https://python-poetry.org/docs/#installation).
+```pip install askagent```
+
+Alternatively, this project uses Poetry for package management. To install Poetry, follow the instructions [here](https://python-poetry.org/docs/#installation).
 
 Once you have Poetry installed, you can install the project dependencies with:
 

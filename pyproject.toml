@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "askagent"
-version = "0.1.0"
-description = "LLM-based agents to be run from terminal to perform differen tasks with the command askagent"
+version = "0.1.1"
+description = "LLM-based agents to be run from terminal to perform different tasks with the command askagent"
 authors = ["Touhidul Alam"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/touhi99/askagent"
 
 [tool.poetry.dependencies]
 python = "^3.10"
