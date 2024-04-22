@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mac-terminal-agents"
+name = "terminalagents"
 version = "0.1.0"
 description = "LLM-based agents to be run from terminal to perform differen tasks"
 authors = ["Touhidul Alam"]
@@ -23,10 +23,9 @@ python-dotenv = "^1.0.1"
 langchain-openai = "^0.1.3"
 langchain-groq = "^0.1.2"
 
-[tool.poetry.scripts]
-askit = "mac-terminal-agents.askit:main"
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.poetry.scripts]
+askit = "terminalagents.askit:main"
